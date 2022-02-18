@@ -1,40 +1,43 @@
-.container-style {
-    width: 500px;
-    height: 300px;
-    margin: 5px auto;
-    border: 1px solid rgb(187, 187, 240);
-    font-size: 1.2rem;
+.container {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 30px 2fr 1fr;
+    border: 1px solid gray;
 }
+.card {
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 10px;
 
-.newcomment-container {
-    display: grid;
-    justify-content: center;
     gap: 2px;
+    display: flex;
+    }
+
+
+
+
+    .card__image {
+        min-width: 60px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin: auto 10px;
 }
 
 .newcomment {
     width: 450px;
-    border: 2px solid rgb(187, 187, 240);
+    border: 2px solid gray;
 }
 
 .h3 {
     margin: 0;
     padding: 0;
     text-align: center;
+    border: 1px solid gray;
+    background-color: gray;
 }
 
-.h3-ground {
-    background-color: rgb(187, 187, 240);
-}
-
-.btn {
-    background-color: rgb(210, 187, 240);
-}
-.container-comment {
-    overflow: scroll;
-    overflow-x: hidden;
+.card-break {
+    word-break: break-all;
 }
